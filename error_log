@@ -1,0 +1,12 @@
+[02-Jun-2017 11:53:10 Etc/GMT] PHP Notice:  Undefined variable: title in /home/ibigrhhe/public_html/redmall/sendmail.php on line 33
+[02-Jun-2017 11:53:10 Etc/GMT] PHP Notice:  Undefined variable: lname in /home/ibigrhhe/public_html/redmall/sendmail.php on line 38
+[25-Jun-2017 07:21:44 Etc/GMT] PHP Notice:  Undefined variable: title in /home/ibigrhhe/public_html/redmall/sendmail.php on line 33
+[25-Jun-2017 07:21:44 Etc/GMT] PHP Notice:  Undefined variable: lname in /home/ibigrhhe/public_html/redmall/sendmail.php on line 38
+[28-Jun-2017 04:11:12 Etc/GMT] PHP Notice:  Undefined variable: title in /home/ibigrhhe/public_html/redmall/sendmail.php on line 33
+[28-Jun-2017 04:11:12 Etc/GMT] PHP Notice:  Undefined variable: lname in /home/ibigrhhe/public_html/redmall/sendmail.php on line 38
+[28-Jun-2017 04:22:17 Etc/GMT] PHP Notice:  Undefined index: name in /home/ibigrhhe/public_html/redmall/sendmail.php on line 3
+[28-Jun-2017 04:22:17 Etc/GMT] PHP Notice:  Undefined index: email in /home/ibigrhhe/public_html/redmall/sendmail.php on line 4
+[28-Jun-2017 04:22:17 Etc/GMT] PHP Notice:  Undefined index: pno in /home/ibigrhhe/public_html/redmall/sendmail.php on line 5
+[28-Jun-2017 04:22:17 Etc/GMT] PHP Notice:  Undefined index: query in /home/ibigrhhe/public_html/redmall/sendmail.php on line 6
+[28-Jun-2017 04:22:17 Etc/GMT] PHP Notice:  Undefined variable: title in /home/ibigrhhe/public_html/redmall/sendmail.php on line 33
+[28-Jun-2017 04:22:17 Etc/GMT] PHP Notice:  Undefined variable: lname in /home/ibigrhhe/public_html/redmall/sendmail.php on line 38
