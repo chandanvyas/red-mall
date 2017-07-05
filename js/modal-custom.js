@@ -1,4 +1,3 @@
-
 	$(function() {
         $(".pop").click(function(){
           var pageTitle = $(this).attr('pageTitle');
