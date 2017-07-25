@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>Header</title>
             <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="css/contactus-style.css">
+        <link rel="stylesheet" type="text/css" href="css/header-style.css">
 <!--Custom Theme files-->
     
 <!--Bootstrap plugin files-->
@@ -27,13 +29,6 @@
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <!--<script type="text/javascript" src="js/modal-custom.js"></script>-->
-        <script src="js/jquery-1.8.3.min.js"></script>
-    <script>
-        $(function(){
-            $('#header').load('header.html');
-            $('#footer').load('footer.html');
-        });
-    </script>
 		
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
@@ -161,75 +156,45 @@ return true;
     </head>
     
     <body>
-        <!--header-->
-        <header>
-            <div class="header-section">
-	<!--Sbub-head-section-->
-		<div class="sub-header" style="background-color:#e92a2d;">
-			<div class="container" >
+         <header>
+            <div class="container">
+                <div class="header">
+                    <div class="col-md-4">
+                        <h1><a href="index.html"><img src="images/logo.jpg" alt="Logo" width="330"></a></h1>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/book.gif" alt="Book" style="margin-top:8px;">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/booking.png" alt="Booking">
+                    </div>           
+                </div>
+            
                 
-                <div class="col-md-4">
-                    <h1><a href="index.html"><img src="images/logo.jpg" alt="Logo" width="330"></a></h1>
-
-                </div>
-                <div class="col-md-5">
-                    <img src="images/book.gif" alt="Book" style="margin-top:8px;">
-                </div>
-                <div class="col-md-3 add">
-                    <img src="images/booking.png" alt="Booking">
-                </div>
-                <div class="clearfix"> </div>
-		    </div>
-	   </div>
-		<!--start-top-nav-->
-						 <nav class="top-nav two">
-							<ul class="top-nav">
-								<li ><a href="index.html">Home</a></li>
-                                <li ><a href="Features.html">Features</a></li>
-                                <li ><a href="promoters.html">Promoters</a></li>
-                                <li ><a href="location_map.html"> Location Map</a></li>
-								<li><a href="floorplan.html"> Floor Plan </a></li>
-								<li><a href="siteplan.html">Site Plan</a></li>
-								<li><a href="pricelist.html">Price List </a></li>
-								<li class="active"><a href="contact.html">Contact</a></li>
-							</ul>
-							<a href="#" id="pull"><h6>MENU</h6><img src="images/menu-icon.png" alt="Menu-icon" title="menu" /></a>
-						</nav>
-				<!--start-top-nav-script-->
-					<!--<script>
-						$(function() {
-							var pull 		= $('#pull');
-								menu 		= $('nav ul');
-								menuHeight	= menu.height();
-							$(pull).on('click', function(e) {
-								e.preventDefault();
-								menu.slideToggle();
-							});
-							$(window).resize(function(){
-				        		var w = $(window).width();
-				        		if(w > 320 && menu.is(':hidden')) {
-				        			menu.removeAttr('style');
-				        		}
-				    		});
-						});
-					</script>-->
-			<!-- script-for-menu -->
-				<!--<script>
-					$(document).ready(function(){
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(200);
-						});
-					});
-				</script>-->
-			<div class="clearfix"> </div>
-		</div>
-        
+                <nav class="navbar navbar-inverse">
+                  <!--<div class="container">-->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                      </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav">
+                        <li><a class="highlight" href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Promoters</a></li>
+                        <li><a href="#">Location Map</a></li>
+						<li><a href="#">Floor Plan </a></li>
+						<li><a href="#">Site Plan</a></li>
+						<li><a href="#">Price List </a></li>
+						<li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                  <!--</div>-->
+                </nav>
+            </div>
         </header>
-        <!--/header-->
-        
-
-	
-        
-        
     </body>
 </html>

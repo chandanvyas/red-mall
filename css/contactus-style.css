@@ -134,7 +134,7 @@ div.info1 {
 }
 
 div.info2 {
-    /*border: thin solid black;*/
+    /*border-left: thin solid black;*/
 	background-color: #ffffff;
 	height: 500px;
 	
@@ -166,8 +166,13 @@ p.contactInfo {
 }
 
 #map {
-    width: 545px;
+    width: 565px;
     height: 500px;
     background: #fff;
     margin: 0px;
+}
+
+iframe {
+    width: 750px;
+    height: 500px;
 }
