@@ -5,303 +5,115 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
 <title>R.E.D Mall :: contact</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<!--Custom Theme files-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-</script>
-<script src="js/jquery-1.8.3.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-
- <!--start-smoth-scrolling-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-		
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-<!--start-smoth-scrolling-->
-<!--webfonts-->
- <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-	<!--webfonts-->
     
-<script type="text/javascript">
-function numbersonly(e, decimal)
-{
-var key;
-var keychar;
 
-if (window.event)
-{
-   key = window.event.keyCode;
-}
-else if (e)
-{
-   key = e.which;
-}
-else
-{
-   return true;
-}
-keychar = String.fromCharCode(key);
-
-if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27) )
-{
-   return true;
-}
-else if ((("0123456789").indexOf(keychar) > -1))
-{
-   return true;
-}
-else if (decimal && (keychar == "."))
-{ 
-  return true;
-}
-else
-   return false;
-}
-</script>
-<script type="text/javascript">
-function Numeric(txtval)
- {
-     var checkOK2 = "1234567890+-";
-    var val=txtval.value;
-    var valid=true;
-    for(var i=0;i<val.length;i++)
-    {
-           var ch=val.charAt(i);
-           for(var j=0;j<checkOK2.length;j++)
-           if(ch==checkOK2.charAt(j))
-           break;
-           if(j==checkOK2.length)
-           {
-              valid=false;
-              break;
-           }
-    }
-    if(!valid)
-    { 
-           alert("Only Numbers are allowed.");
-           txtval.value="";
-           txtval.focus();
-           return false;
-    }
-}
-</script>
-<script type="text/javascript" language="javascript">
-
-
-function validate()
-{
- if (document.contact.name.value.trim()=="")
-	{
-		alert("Please Enter  Name" )
-		document.contact.name.focus()
-		return false;
-	}
-else if (document.contact.cname.value.trim()=="")
-	{
-		alert("Please Enter Company Name" )
-		document.contact.cname.focus()
-		return false;
-	}
-else if (document.contact.pno.value.trim()=="")
-	{
-		alert("Please Enter phone no" )
-		document.contact.pno.focus()
-		return false;
-	}
-else if (document.contact.query.value.trim()=="")
-	{
-		alert("Please Enter Enquiry" )
-		document.contact.query.focus()
-		return false;
-	}
-
-return true;
-}
--->
-</script>       
+    
 </head>
 <body>
-<!--header-->
-	<div class="header-section">
-	<!--<div class="header-top">
-			<div class="container">
-			
-				<div class="top-icons">
-					<ul>
-						<li><a class="gp" href="#"><span> </span></a></li>
-						<li><a class="tw" href="#"><span> </span></a></li>
-						<li><a class="fb" href="#"><span> </span></a></li>
-						<li><a class="rss" href="#"><span> </span></a></li>
-						
-						<div class="clearfix"> </div>
-					</ul>
-				</div>
-				<ul class="left-icons">
-					<li class="span-2">
-						<div class="icon">
-							<i class="location"></i>
-						</div>
-						<div class="icon-data">
-							<p>081-25445-4032</p>
-						</div>
-						<div class="clearfix"></div>
-					</li>
-					<li class="span-2">
-						<div class="icon">
-							<i class="message"></i>
-						</div>
-						<div class="icon-data">
-							<p><a class="mail" href="mailto:info@redmall.co.in">info@redmall.co.in</a></p>
-						</div>
-						<div class="clearfix"></div>
-					</li>
-					<li class="span-2 phone">
-						<div class="icon">
-							<i class="telephone"></i>
-						</div>
-						<div class="icon-data">
-							<p> +91-8826-161-86</p>
-						</div>
-						<div class="clearfix"></div>
-					</li>
-					<div class="clearfix"></div>
-				</ul>
-
-				<div class="clearfix"> </div>
+    
+    <div id="header"></div>
+    
+		<section>
+			<div class="contact-image-section">
+				<h2>Contact Us</h2>
+				<p class="abbreviation">Happy to help you</p>
 			</div>
-		</div>--->
-	<!--Sbub-head-section-->
-		<div class="sub-header" style="background-color:#e92a2d;">
-			<div class="container" >
-			<!--logo-->
-			<div class="col-md-4">
-				<h1><a href="index.html"><img src="images/logo.jpg" width="330"></a></h1>
+		</section>
 
-			</div>
-            <div class="col-md-5">
-				<img src="images/book.gif" style="margin-top:8px;">
-          	</div>
-			<div class="col-md-3 add">
-				<img src="images/booking.png">
-			</div>
-			 <div class="clearfix"> </div>
-		</div>
-	</div>
-		<!--start-top-nav-->
-						 <nav class="top-nav two">
-							<ul class="top-nav">
-								<li ><a href="index.html">Home</a></li>
-                                <li ><a href="Features.html">Features</a></li>
-                                <li ><a href="promoters.html">Promoters</a></li>
-                                <li ><a href="location_map.html"> Location Map</a></li>
-								<li><a href="floorplan.html"> Floor Plan </a></li>
-								<li><a href="siteplan.html">Site Plan</a></li>
-								<li><a href="pricelist.html">Price List </a></li>
-								<li class="active"><a href="contact.html">Contact</a></li>
-									<div class="clearfix"> </div>
+		<section>
+			     <div class="inquiry-section">
+				    <h3>Reason for Inquiry</h3>
+				    <p class="purpose">Please select the purpose for your inquiry.</p>
+                
+                     <div class="container">
+                        <div class="col-md-4">
 
-							</ul>
-							<a href="#" id="pull"><h6>MENU</h6><img src="images/menu-icon.png" title="menu" /></a>
-						</nav>
-				<!--start-top-nav-script-->
-					<script>
-						$(function() {
-							var pull 		= $('#pull');
-								menu 		= $('nav ul');
-								menuHeight	= menu.height();
-							$(pull).on('click', function(e) {
-								e.preventDefault();
-								menu.slideToggle();
-							});
-							$(window).resize(function(){
-				        		var w = $(window).width();
-				        		if(w > 320 && menu.is(':hidden')) {
-				        			menu.removeAttr('style');
-				        		}
-				    		});
-						});
-					</script>
-			<!-- script-for-menu -->
-				<script>
-					$(document).ready(function(){
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(200);
-						});
-					});
-				</script>
-			<div class="clearfix"> </div>
-		</div>
-		<!--/header-->
-		<div class="contact-section">
-		<div class="contact-head">
-			<div class="container">
-				<h3>Contact Info</h3>
-                  <p><h3>Red Solutions Pvt. Ltd.</h3>
-              <h5>Address: G.T.Road, Near Mahamaya Stadium, Ghaziabad, 201001<br>
-               Mobile: 09717392530<br>
-              Email: redmall76@gmail.com</h5>
-              </p>
-			</div>
-		</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24952.32786128756!2d77.43319459188199!3d28.659565780132006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1c50000009d%3A0x7ed452e0822acdec!2sRetail+Space+in+Ghaziabad!5e0!3m2!1sen!2sin!4v1455536625441"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <div class="image1">
+                                <img class="image1" src="images/icon-request_a_demo2.svg" alt="Demo Image" width=100 height=150><br>
+                                    </div>
+                                <div class="Contact-panel-content">
+                                    <p class= "imageText1">Request a Demo</p><br>
+                                    <p class="imageText3-content">Request a demonstration of Achieve3000's award-winning, differentiated instruction solutions.</p>
+                                    <button class="btn btn-full pop" pageTitle="Request Demo" pageName="request-demo.html">Request a Demo</button>
+                                </div>
+                        </div>
 
-		<div class="contact-inner">
-		  <div class="container">
-			
-			<h4>Contact Us</h4>
-			 <form class="con" name="contact" method="post" action="sendmail.php" onSubmit="return validate();">
-			    <input type="text" name="name" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-						 <input type="text" name="email" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
-						<input type="text" name="pno" class="text" value="pno" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Pno';}" onkeypress="return Numeric(this)">
-						<textarea name="query" value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
-						<div class="clearfix"> </div>
-						<div class="sub-button">
-							<input name="submit" type="submit" value="Submit">
-						</div>
-					</form>
+                        <div class="col-md-4">
+                                <div class="image2">
+                                <img class="image2" src="images/sales-inquiry.svg" alt="Demo Image" width=100 height=150><br>
+                                    </div>
+                                <div class="Contact-panel-content">
+                                    <p class= "imageText2">Sales Inquiry</p><br>
+                                    <p class="imageText3-content">Reach out to our Sales team directly for immediate assistance with all sales-related inquiries.</p>
+                                    <button class="btn btn-full pop" pageTitle="Sales Inquiry" pageName="sales-inquiry.html">Sales Inquiry</button>
+                            </div>
+                        </div>
 
-		</div>
-		</div>
-	</div>
-		<!--/start-footer-->
-						<div class="footer">
-							<div class="container">
-								<div class="footer-content">
-									<div class="col-md-8 footer-grid">
-								 		<h3>Information</h3>
-								 		<p>R. E. D, ready to launch its *Phase-II*. All set to be the largest
-upcoming
-NEW CHANDNI CHOWK High Street Market
-in Ghaziabad
-</p>
-						 			</div>
-									
-						 			<div class="col-md-4 footer-grid-copy-right">
-								 		<div class="logo-2 pull-right">
-											<h3><a href="index.html"><img src="images/logo.jpg" width="300"></a></h3>
-										</div>
-				<p class="copy-right"> Design by &nbsp;<a href="http://ikoninfocom.com/">ikoninfocom</a></p>
-						 			</div>
-								<div class="clearfix"> </div>
-							</div>				
+                        <div class="col-md-4">
+                                <div class="image3">
+                                <img class="image3" src="images/customer-support-icon.svg" alt="Demo Image" width=100 height=150><br>
+                                    </div>
+                                <div class="Contact-panel-content">
+                                    <p class= "imageText3">Customer Support</p><br>
+                                    <p class="imageText3-content">Get in touch with customer support for assistance with your Achieve3000 implementation.</p>
+                                    <button class="btn btn-full pop" pageTitle="Customer Support" pageName="customer-support.html">Customer Support</button>
+                                </div>
+                        </div>
 					</div>
-					<!--//End-footer-->
+                </div>
+			 
+		</section>
+    
+   <div class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+ 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+    
+    <section>
+        
+        <div class="col-md-7 info1">
+                <div class="col-md-6 info1">
+                    <h4><strong>Corporate Headquaters</strong></h4>
+                    <p class="companyName">Red Solutions Pvt. Ltd.</p>
+                    <address>G.T.Road, <br>
+                        Near Mahamaya Stadium, <br>
+                        Ghaziabad, <br>
+                        201001</address>
+                </div>
+
+                <div class="col-md-6 info1">
+                    <h4><strong>General Contact</strong></h4>
+                    <p class="contactInfo">Phone: 09717392530</p>
+                    <p class="contactInfo">Email: redmall76@gmail.com</p>
+                </div>
+        </div>
+        
+        <div class="col-md-5 info2">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750.298876969582!2d77.40817081003414!3d28.6717604994403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf04924be5db5%3A0x70acc81e72bd598b!2sRed+Mall+Phase+2+NEW+CHANDNI+CHOWK!5e0!3m2!1sen!2sin!4v1498904260980"></iframe>
+            
+           
+        
+        </div>
+    </section>
+		
+    
+    <div id="footer"></div>
 
 				<script type="text/javascript">
 									$(document).ready(function() {

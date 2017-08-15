@@ -1,0 +1,32 @@
+.header {
+    background-color: #ea2b2b;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+}
+
+.nav {
+    text-align: center;
+    display: block;
+}
+
+.navbar-inverse {
+    border-radius: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+a.highlight:hover {
+    color: #ea2b2b;
+}
